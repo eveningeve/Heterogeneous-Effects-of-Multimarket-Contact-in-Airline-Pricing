@@ -1,0 +1,37 @@
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                ln_fare   R-squared:                        0.0029
+Estimator:                   PanelOLS   R-squared (Between):              0.0131
+No. Observations:              150483   R-squared (Within):               0.0037
+Date:                Thu, Dec 25 2025   R-squared (Overall):              0.0117
+Time:                        21:59:12   Log-likelihood                 6.493e+04
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      53.337
+Entities:                       20534   P-value                           0.0000
+Avg Obs:                       7.3285   Distribution:                F(7,129921)
+Min Obs:                       1.0000                                           
+Max Obs:                       22.000   F-statistic (robust):             4.8765
+                                        P-value                           0.0000
+Time periods:                      22   Distribution:                F(7,129921)
+Avg Obs:                       6840.1                                           
+Min Obs:                       6223.0                                           
+Max Obs:                       7460.0                                           
+                                                                                
+                               Parameter Estimates                                
+==================================================================================
+                Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------
+wmmc_seat_lag1    -0.0007     0.0014    -0.4728     0.6363     -0.0034      0.0021
+Q_2                0.0279     0.0072     3.8681     0.0001      0.0137      0.0420
+Q_3                0.0472     0.0099     4.7735     0.0000      0.0278      0.0666
+Q_4                0.0533     0.0111     4.8114     0.0000      0.0316      0.0750
+wmmc_x_Q_2        -0.0003     0.0012    -0.2276     0.8200     -0.0027      0.0021
+wmmc_x_Q_3         0.0007     0.0015     0.4475     0.6545     -0.0022      0.0036
+wmmc_x_Q_4         0.0015     0.0018     0.8406     0.4006     -0.0020      0.0049
+==================================================================================
+
+F-test for Poolability: 34.774
+P-value: 0.0000
+Distribution: F(20554,129921)
+
+Included effects: Entity, Time
