@@ -57,49 +57,6 @@ All markets are defined as **undirected origin–destination city pairs** to ens
 
 ---
 
-## Repository Structure
-
-```
-.
-├── data/               # Raw and processed DB1B and T‑100 datasets (not included if restricted)
-├── notebooks/          # Jupyter notebooks for data construction and analysis
-├── src/                # Python scripts for MMC construction and regression analysis
-├── outputs/            # Regression tables and figures
-├── appendix_outputs/   # Appendix tables (A1–A3) and figures (A1–A2)
-├── requirements.txt    # Python dependencies
-└── README.md
-```
-
----
-
-## How to Run the Analysis
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/Kathyuxu/882-f25-class-project-team9.git
-   cd 882-f25-class-project-team9
-   ```
-
-2. Set up the environment:
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # macOS/Linux
-   venv\\Scripts\\activate      # Windows
-   pip install -r requirements.txt
-   ```
-
-3. Run notebooks in order:
-
-   * Data cleaning and market construction
-   * MMC construction
-   * Regression analysis and robustness checks
-
-4. Generated tables and figures will be saved to the `outputs/` and `appendix_outputs/` folders.
-
----
-
 ## Outputs
 
 * **Main tables**: baseline and interaction regressions
